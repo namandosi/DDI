@@ -1,0 +1,17 @@
+The code is uploaded on github: https://github.com/namandosi/DDI
+
+The dataset is available at: https://figshare.com/articles/dataset_ddiPrediction/7454312
+
+Packages required:
+    1. python version $\geq 3.5$
+    2. numpy
+    3. deap (can be installing using pip: pip install deap)
+    4. sklearn
+    5. keras
+    6. networkx
+
+To run the code: python DDI.py
+
+Download the dataset (from https://figshare.com/articles/dataset_ddiPrediction/7454312) into the current directory (containing DDI.py file) and folder named 'dataset'.
+
+Create a 'result' folder in the same directory and add files 'result_on_our_dataset_5CV' and 'weights_on_our_dataset_5CV' to store the model and model weights.
